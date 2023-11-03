@@ -1,0 +1,11 @@
+F:\Learning\C#\OOP_Task\ClassLibrary2\bin\Debug\net7.0\ClassLibrary2.deps.json
+F:\Learning\C#\OOP_Task\ClassLibrary2\bin\Debug\net7.0\ClassLibrary2.dll
+F:\Learning\C#\OOP_Task\ClassLibrary2\bin\Debug\net7.0\ClassLibrary2.pdb
+F:\Learning\C#\OOP_Task\ClassLibrary2\obj\Debug\net7.0\ClassLibrary2.GeneratedMSBuildEditorConfig.editorconfig
+F:\Learning\C#\OOP_Task\ClassLibrary2\obj\Debug\net7.0\ClassLibrary2.AssemblyInfoInputs.cache
+F:\Learning\C#\OOP_Task\ClassLibrary2\obj\Debug\net7.0\ClassLibrary2.AssemblyInfo.cs
+F:\Learning\C#\OOP_Task\ClassLibrary2\obj\Debug\net7.0\ClassLibrary2.csproj.CoreCompileInputs.cache
+F:\Learning\C#\OOP_Task\ClassLibrary2\obj\Debug\net7.0\ClassLibrary2.dll
+F:\Learning\C#\OOP_Task\ClassLibrary2\obj\Debug\net7.0\refint\ClassLibrary2.dll
+F:\Learning\C#\OOP_Task\ClassLibrary2\obj\Debug\net7.0\ClassLibrary2.pdb
+F:\Learning\C#\OOP_Task\ClassLibrary2\obj\Debug\net7.0\ref\ClassLibrary2.dll

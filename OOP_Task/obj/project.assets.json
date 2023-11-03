@@ -1,0 +1,127 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "ClassLibrary1/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/ClassLibrary1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassLibrary1.dll": {}
+        }
+      },
+      "ClassLibrary2/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/ClassLibrary2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassLibrary2.dll": {}
+        }
+      },
+      "ClassLibrary3/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/ClassLibrary3.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassLibrary3.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ClassLibrary1/1.0.0": {
+      "type": "project",
+      "path": "../ClassLibrary1/ClassLibrary1.csproj",
+      "msbuildProject": "../ClassLibrary1/ClassLibrary1.csproj"
+    },
+    "ClassLibrary2/1.0.0": {
+      "type": "project",
+      "path": "../ClassLibrary2/ClassLibrary2.csproj",
+      "msbuildProject": "../ClassLibrary2/ClassLibrary2.csproj"
+    },
+    "ClassLibrary3/1.0.0": {
+      "type": "project",
+      "path": "../ClassLibrary3/ClassLibrary3.csproj",
+      "msbuildProject": "../ClassLibrary3/ClassLibrary3.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "ClassLibrary1 >= 1.0.0",
+      "ClassLibrary2 >= 1.0.0",
+      "ClassLibrary3 >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\user\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "F:\\Learning\\C#\\OOP_Task\\OOP_Task\\OOP_Task.csproj",
+      "projectName": "OOP_Task",
+      "projectPath": "F:\\Learning\\C#\\OOP_Task\\OOP_Task\\OOP_Task.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "F:\\Learning\\C#\\OOP_Task\\OOP_Task\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "F:\\Learning\\C#\\OOP_Task\\ClassLibrary1\\ClassLibrary1.csproj": {
+              "projectPath": "F:\\Learning\\C#\\OOP_Task\\ClassLibrary1\\ClassLibrary1.csproj"
+            },
+            "F:\\Learning\\C#\\OOP_Task\\ClassLibrary2\\ClassLibrary2.csproj": {
+              "projectPath": "F:\\Learning\\C#\\OOP_Task\\ClassLibrary2\\ClassLibrary2.csproj"
+            },
+            "F:\\Learning\\C#\\OOP_Task\\ClassLibrary3\\ClassLibrary3.csproj": {
+              "projectPath": "F:\\Learning\\C#\\OOP_Task\\ClassLibrary3\\ClassLibrary3.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
